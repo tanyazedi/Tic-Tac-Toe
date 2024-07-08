@@ -1,0 +1,23 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#BB86FC"/>
+            <corners android:radius="8dp"/>
+            <padding android:left="10dp" android:top="10dp" android:right="10dp" android:bottom="10dp"/>
+            <size android:width="75dp" android:height="75dp"/>
+            <shadow
+                android:shadowColor="#BB86FC"
+                android:shadowDx="5"
+                android:shadowDy="5"
+                android:shadowRadius="10"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#BB86FC"/>
+            <corners android:radius="8dp"/>
+            <padding android:left="10dp" android:top="10dp" android:right="10dp" android:bottom="10dp"/>
+            <size android:width="75dp" android:height="75dp"/>
+        </shape>
+    </item>
+</selector>
